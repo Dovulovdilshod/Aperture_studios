@@ -353,6 +353,30 @@ button {
     gap: 203px;
     padding: 45px 40px; 
 }
+/* HELP */
+.help {
+    min-height: 406px;
+    padding: 120px 0 100px;
+    text-align: center;
+}
+.help_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.help__heading {
+    font-size: 40px;
+    line-height: 42px;
+    color: #FFF;
+}
+.help__text {
+    font-size: 24px;
+    line-height: 30px;
+    color: #C0C0C0;
+    margin: 15px 0 22px;
+}
+
 /* FOOTER */
 .footer {
     background: #000;
@@ -492,6 +516,7 @@ button {
 }
 @media(max-width: 768px) {
     .cards_card {padding: 200px 20px 20px 20px;}
+    .help__heading {font-size: 30px;}
 }
 @media(max-width: 576px) {}
 @media(max-width: 480px) {
